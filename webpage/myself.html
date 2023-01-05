@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MYSELF</title>
+</head>
+<style>
+	*{
+		margin: 0;
+		margin-top: 2px;
+		margin-bottom: 5px;
+		padding: auto;
+		align-items: center;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	body{
+		height: 100vh;
+		width: 100%;
+		background-image: url('bg1.png');
+	}
+	hr{
+		height: 3px;
+		border-width: 0;
+		color: #597c47;
+		background-color: #597c47;
+	}
+	nav{
+		display: flex;
+		padding: 1px 2px
+		justify-content: space-between;
+		align-items: center;
+	}
+	.nav-bars{
+		flex: 1;
+		text-align: right;
+		padding-right: 10px;
+		padding-top: 10px;
+	}
+	.nav-bars ul li{
+		list-style: none;
+		display: inline-block;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		padding: 0px 35px;
+	}
+	.nav-bars ul li a{
+		color: #fff;
+		text-decoration: none;
+		font-size: 17px;
+		}
+	.nav-bars ul li::after{
+		content: '';
+		width: 0%;
+		height: 2px;
+		background: #80a96b;
+		display: block;
+		margin: auto;
+		transition: 0.5s;
+		}
+	.nav-bars ul li:hover::after{
+		width: 100%;
+	}
+	nav img{
+		width: 400px;
+		margin-left: 30px; 
+		margin-top: 10px;
+	}
+	h3{
+		margin-top: 7px;
+		color: #3b522f;
+	}
+	h4{
+		text-align: center;
+		color: white;
+		position: relative;
+		padding: 80px 20px;
+	}
+	p{
+		text-align: center;
+		color: white;
+		padding-top: 10px;
+	}
+	.column {
+		float: left;
+		width: 33.33%;
+		text-align: center;
+	}
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.column img{
+		width: 300px;
+		height: 300px;
+		display: flex;
+		transition: transform .2s;
+		margin-left: 75px;
+		box-shadow: -1px 0 10px #EEF2E6;
+	}
+	.column img:hover{
+	 transform: scale(1.3);
+	 }
+	.back{
+		display: inline-block;
+		text-decoration: none;
+		font-weight: bold;
+		color: white;
+		padding: 10px 30px;
+		font-size: 14px;
+		background: #80a96b;
+		position: relative;
+		margin-left: 0px;
+		margin-bottom: 1em;
+		margin-top: 1em;
+	}
+	
+</style>
+<body>
+		<nav>
+            <a href="final.html"><img src="icon.png" alt="women programmer"></a>
+			<div class="nav-bars">
+				<ul>
+                    <li><a href="C:\Users\ashle\Desktop\COLLEGE\DCIT 21A\webpage\index.html">HOME</a></li>
+                    <li><a href="C:\Users\ashle\Desktop\COLLEGE\DCIT 21A\webpage\Resumevmfp.html">RESUME</a></li>
+                    <li><a href="C:\Users\ashle\Desktop\COLLEGE\DCIT 21A\webpage\myself.html">MYSELF</a></li>
+					<li><a href="C:\Users\ashle\Desktop\COLLEGE\DCIT 21A\webpage\favorites.html">FAVORITES</a></li>
+					<li><a href="C:\Users\ashle\Desktop\COLLEGE\DCIT 21A\webpage\family.html">MY FAMILY</a></li>
+                </ul>
+			</div>
+		</nav>
+		<hr>
+		<h4><i>"We should always chase our dreams and not be afraid of failure."</i></h4>
+		<div class="row">
+		  <div class="column">
+			<img src= "C:\Users\ashle\Desktop\COLLEGE\DCIT 21A\webpage\1.png">
+				<br>
+				<h3>Student-Athlete Journey</h3>
+		  </div>
+
+		  <div class="column">
+			<img src= "C:\Users\ashle\Desktop\COLLEGE\DCIT 21A\webpage\2.png">
+				<br>
+				<h3>Fruit of Hardwork</h3>
+		  </div>
+		  
+		  <div class="column">
+			<img src= "C:\Users\ashle\Desktop\COLLEGE\DCIT 21A\webpage\3.png">
+				<br>
+				<h3>Trying Something New</h3>
+		  </div>
+		</div>
+		
+		<div class="row">
+		  <div class="column">
+			<p style="text-align: justify; text-indent: 30px; font-size: 15px; margin-left: 40px; margin-right: 50px;">These photos were taken over the course of my athletic journey, which lasted from 2016 to 2020. Aurora National Science High School was the location for the first photograph. Although it was my final game at the time, I managed to enjoy it and make it memorable. The second image was captured in Malolos, Bulacan. I was the youngest on the team at the time, and I still remember how kind and caring my teammates were to me. Lastly, the third picture was captured in Iba, Zambales. It was one of the most unforgettable competitions I've ever attended because not only was I representing my province, but I also met a lot of people from different places.</p>
+		  </div>
+
+		  <div class="column">
+			<p style="text-align: justify; text-indent: 30px; margin-left: 50px; margin-right: 50px; font-size: 17px;">These photos were taken on the day of our graduation at Aurora National Science High School on June 29, 2022.</p>
+		  </div>
+		  
+		  <div class="column">
+			<p style="text-align: justify; text-indent: 30px; margin-left:20px; margin-right: 50px; font-size: 15px;">These are the certificates I received for participating in online courses and webinars from June to July 2020. This was a new experience for me because I was unsure about learning things at my own pace; however, with the help of the tutorials, I was able to enhance my knowledge.</p>
+		  </div>
+		</div>
+	<center><a href="C:\Users\ashle\Desktop\COLLEGE\DCIT 21A\webpage\index.html" class="back">BACK</a></center>
+</body>
+</html>
+

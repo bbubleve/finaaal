@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Blog</title>
+</head>
+<style>
+	.nav-bars{
+		flex: 1;
+		text-align: right;
+		padding-right: 10px;
+		padding-top: 10px;
+	}
+	.nav-bars ul li{
+		list-style: none;
+		display: inline-block;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		padding: 0px 35px;
+	}
+	.nav-bars ul li a{
+		color: #fff;
+		text-decoration: none;
+		font-size: 17px;
+	}
+	.nav-bars ul li::after{
+		content: '';
+		width: 0%;
+		height: 2px;
+		background: #80a96b;
+		display: block;
+		margin: auto;
+		transition: 0.5s;
+	}
+	.nav-bars ul li:hover::after{
+		width: 100%;
+	}
+</style>
+<body style="margin: 2px; padding: 0; height: 100vh; width: 100%; background-image: url('bg1.png'); font-family: Verdana, Geneva, Tahoma, sans-serif;">
+		<nav style="display: flex; padding: 1px 2px; justify-content: space-between; align-items: center;">
+            <a href="final.html"><img src="icon.png" alt="women programmer" style="width: 400px; margin-left: 20px; margin-top: 10px;"></a>
+			<div class="nav-bars">
+				<ul>
+					<li><a href="C:\Users\ashle\Desktop\COLLEGE\DCIT 21A\webpage\index.html" style="color: #fff; text-decoration: none; font-size: 17px;">HOME</a></li>
+                    <li><a href="C:\Users\ashle\Desktop\COLLEGE\DCIT 21A\webpage\Resumevmfp.html" style="color: #fff; text-decoration: none; font-size: 17px;">RESUME</a></li>
+                    <li><a href="C:\Users\ashle\Desktop\COLLEGE\DCIT 21A\webpage\myself.html" style="color: #fff; text-decoration: none; font-size: 17px;">MYSELF</a></li>
+					<li><a href="C:\Users\ashle\Desktop\COLLEGE\DCIT 21A\webpage\favorites.html" style="color: #fff; text-decoration: none; font-size: 17px;">FAVORITES</a></li>
+					<li><a href="C:\Users\ashle\Desktop\COLLEGE\DCIT 21A\webpage\family.html" style="color: #fff; text-decoration: none; font-size: 17px;">MY FAMILY</a></li>
+				</ul>
+			</div>
+		</nav>
+	<hr style="height: 3px; border-width: 0; color: #597c47; background-color: #597c47; margin-bottom: 0px;">
+	<br>
+	<h1 style="font-size: 40px; color: #344829; text-align: center;">MY FAMILY</h1>
+	<center><img src="fam.png" alt="" style="width:900px; padding: 0px;"></center>
+	<br>
+	<p style="font-size: 15px; color: white; text-align: center; margin-left: 300px; margin-right: 300px;">This photo was taken on July 30, 2022. We were celebrating the 8th birthday of our family's youngest member at the time. This picture is significant because it was the first time in a long time that we were able to take a family picture with our beloved grandmother.</p>
+	<h2 style="font-size: 25px; color: #344829; text-align: center;">Palomar-Fonacier Family </h2>
+	<center><img src="mem.png" alt="" style="width:900px; padding: 0px;"></center>
+	<hr style="height: 3px; width: 90%; background-color: #597c47; margin-bottom: 3px;">
+	<br>
+	<form style="margin-left: 250px;">
+			<h2 style="margin-left: 50px; color: white;">Questions? Send me a message here.</h2>
+			<label for="fname" style="color: white; font-size: 20px; margin-bottom: 4px;">First name:</label><br>
+			<input type="text" id="fname" name="fname" style="border-color: green; border-width: 2px; font-size: 20px;"><br>
+			<label for="lname" style="color: white; font-size: 20px; margin-bottom: 4px;">Last name:</label><br>
+			<input type="text" id="lname" name="lname" style="border-color: green; border-width: 2px; font-size: 20px;"><br><br>
+			<label for="message" style="color: white; font-size: 20px; margin-bottom: 4px;">Your message:</label><br>
+			<textarea style="border-color: green; border-width: 2px; font-size: 20px;" name="message" rows="15" cols="70"></textarea>
+			<br>
+			<input type="submit" value="Submit" style="background-color: #80a96b; color: white; border-color: green; font-size: 18px; margin-bottom: 20px; margin-top: 5px; margin-left: 720px;">
+	</form>
+	
+	
+</body>
+</html>
